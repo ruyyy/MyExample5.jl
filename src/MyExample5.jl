@@ -1,5 +1,7 @@
 module MyExample5
 
-# Write your package code here.
+export my_f
 
-end
+include("extra_file.jl")
+
+end # module
